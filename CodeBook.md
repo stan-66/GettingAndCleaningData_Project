@@ -26,11 +26,17 @@ Process:
 ========
 The script goes along the following steps:
 1. Load the sources files provided (see assumption above as to the source data) -> datasets xtest1 and xtrain1.
+
 2. Select the mean and the standard deviations in the measurements using the column names -> datasets xtest2 and xtrain2.
+
 3  Include the columns for subject and activity ID to the datasets -> datasets xtest3, xtrain3; merge them and set the column names -> dataset xall
+
 4. Replace the activity ID by the label -> dataset xall
+
 5. Aggregate and compute the average on the variables -> datasets xgrouped, xsummary
+
 6. Set the column names in the summary dataset -> xsummary
+
 7. Generate the results text file in the working directory -> TidyData.txt
 
 
