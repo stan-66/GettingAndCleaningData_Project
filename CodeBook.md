@@ -35,7 +35,7 @@ The script goes along the following steps:
 
 5. Aggregate and compute the average on the variables -> datasets xgrouped, xsummary
 
-6. Set the column names in the summary dataset -> xsummary
+6. Set the column names in the summary dataset -> dataset xsummary
 
 7. Generate the results text file in the working directory -> TidyData.txt
 
