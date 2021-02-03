@@ -29,7 +29,7 @@ The script goes along the following steps:
 
 2. Select the mean and the standard deviations in the measurements using the column names -> datasets xtest2 and xtrain2.
 
-3  Include the columns for subject and activity ID to the datasets -> datasets xtest3, xtrain3; merge them and set the column names -> dataset xall
+3. Include the columns for subject and activity ID to the datasets -> datasets xtest3, xtrain3; merge them and set the column names -> dataset xall
 
 4. Replace the activity ID by the label -> dataset xall
 
