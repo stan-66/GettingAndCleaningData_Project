@@ -10,7 +10,7 @@ This code book describes the variables, the data, and any transformations or wor
 
 Requirements:
 =============
-The package dplyr is needed for this script. The sricpt containts the following code lines to that avail:
+The package dplyr is needed for this script. The script contains the following code lines to that avail:
 install.packages("dplyr")
 library(dplyr)
 
@@ -42,7 +42,11 @@ The script goes along the following steps:
 
 Output Data:
 ============
-The result text file TidyData.txt includes mean and standard deviation variables for the original variables:
+The result text file TidyData.txt contains the following data elements:
+- Subject, identifying the subject ID
+- Activity, indentifying the activity type
+
+It also includes mean (Mean) and standard deviation (std) variables for the original variables:
 - tBodyAcc-XYZ
 - tGravityAcc-XYZ
 - tBodyAccJerk-XYZ
